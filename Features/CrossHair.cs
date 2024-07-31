@@ -11,8 +11,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class CrossHair : ToggleFeature
 {
-	public override string Name => "crosshair";
-	public override string Description => "Crosshair with customizable size, color, thickness and auto-hide feature when aiming.";
+	public override string Name => "准星";
+	public override string Description => "瞄准时，十字线具有可自定义的大小、颜色、粗细和自动隐藏功能。";
 
 	public override bool Enabled { get; set; } = false;
 

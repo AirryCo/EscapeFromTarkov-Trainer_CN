@@ -10,8 +10,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Durability : ToggleFeature
 {
-	public override string Name => "durability";
-	public override string Description => "Maximum durability of items.";
+	public override string Name => "耐久度";
+	public override string Description => "物品最大耐久度。";
 
 	public override bool Enabled { get; set; } = false;
 

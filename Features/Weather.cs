@@ -9,8 +9,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Weather : TriggerFeature
 {
-	public override string Name => "weather";
-	public override string Description => "Clear weather.";
+	public override string Name => "天气";
+	public override string Description => "晴朗的天气。";
 
 	public override KeyCode Key { get; set; } = KeyCode.None;
 

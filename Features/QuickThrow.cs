@@ -11,8 +11,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class QuickTrow : TriggerFeature
 {
-	public override string Name => "quickthrow";
-	public override string Description => "Quick-throw grenades.";
+	public override string Name => "快速投掷";
+	public override string Description => "快速投掷手榴弹。";
 
 	public override KeyCode Key { get; set; } = KeyCode.None;
 

@@ -16,8 +16,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Quests : PointOfInterests
 {
-	public override string Name => "quest";
-	public override string Description => "Locations for taking/placing quest items. Only items related to your started quests are displayed.";
+	public override string Name => "任务物品";
+	public override string Description => "领取/放置任务物品的位置。仅显示与您已开始的任务相关的物品。";
 
 	[ConfigurationProperty]
 	public Color Color { get; set; } = Color.magenta;

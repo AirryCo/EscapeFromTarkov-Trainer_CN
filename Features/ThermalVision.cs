@@ -10,8 +10,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class ThermalVision : ToggleFeature
 {
-	public override string Name => "thermal";
-	public override string Description => "Thermal vision.";
+	public override string Name => "热成像";
+	public override string Description => "热成像。";
 
 	public override bool Enabled { get; set; } = false;
 

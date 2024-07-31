@@ -12,8 +12,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Grenades : CachableFeature<Throwable>
 {
-	public override string Name => "grenade";
-	public override string Description => "Grenades outline.";
+	public override string Name => "手榴弹";
+	public override string Description => "手榴弹路径。";
 
 	[ConfigurationProperty]
 	public Color Color { get; set; } = Color.red;

@@ -42,8 +42,8 @@ public class ShootableColor(Color color, Color borderColor) : IFeature
 [UsedImplicitly]
 internal class Players : ToggleFeature
 {
-	public override string Name => "wallhack";
-	public override string Description => "Wallhack (you'll see Bear/Boss/Cultist/Scav/Usec with configurable colors through walls). Charms, boxes, info (weapon and health), skeletons and distance.";
+	public override string Name => "透视";
+	public override string Description => "透视（您将透过墙壁看到可配置颜色的熊/Boss/Cultist/Scav/Usec）。护身符、盒子、信息（武器和健康）、骷髅和距离。";
 
 	[ConfigurationProperty(Order = 10)]
 	public PlayerColor BearColors { get; set; } = new(Color.blue, Color.red, Color.red);

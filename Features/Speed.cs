@@ -10,8 +10,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Speed : HoldFeature
 {
-	public override string Name => "speed";
-	public override string Description => "Speed boost to be able to go through walls/objects, or to move faster. Be careful to not kill yourself.";
+	public override string Name => "加速";
+	public override string Description => "加速以便能够穿过墙壁/物体，或移动得更快。小心不要自杀。";
 
 	public override KeyCode Key { get; set; } = KeyCode.None;
 

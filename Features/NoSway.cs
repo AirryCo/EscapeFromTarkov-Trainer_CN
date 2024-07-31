@@ -9,8 +9,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class NoSway : ToggleFeature
 {
-	public override string Name => "nosway";
-	public override string Description => "No sway.";
+	public override string Name => "无摇摆";
+	public override string Description => "无左右摇摆。";
 
 	public override bool Enabled { get; set; } = false;
 

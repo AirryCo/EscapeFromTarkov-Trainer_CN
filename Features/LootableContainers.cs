@@ -13,8 +13,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class LootableContainers : PointOfInterests
 {
-	public override string Name => "stash";
-	public override string Description => "Hidden/special stashes like buried barrels, ground caches, air drops or corpses.";
+	public override string Name => "隐藏";
+	public override string Description => "隐藏/特殊的储藏处，例如埋藏的桶、地面储藏物、空投或尸体。";
 
 	//Static Hashset for List of Container IDS
 	private static readonly HashSet<string> _targetedContainer =

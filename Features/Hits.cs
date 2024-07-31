@@ -13,8 +13,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Hits : ToggleFeature
 {
-	public override string Name => "hits";
-	public override string Description => "Hit markers (hit, armor, health with configurable colors).";
+	public override string Name => "命中标记";
+	public override string Description => "命中标记（命中、护甲、健康，可配置颜色）。";
 
 	public override bool Enabled { get; set; } = false;
 

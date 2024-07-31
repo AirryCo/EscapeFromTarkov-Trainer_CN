@@ -12,8 +12,8 @@ namespace EFT.Trainer.Features;
 
 internal class Commands : FeatureRenderer
 {
-	public override string Name => "commands";
-	public override string Description => "This main popup window.";
+	public override string Name => "命令";
+	public override string Description => "这是主窗口。";
 
 	[ConfigurationProperty(Skip = true)] // we do not want to offer save/load support for this
 	public override bool Enabled { get; set; } = false;

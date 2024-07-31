@@ -14,7 +14,7 @@ namespace EFT.Trainer.Features;
 internal class Hud : ToggleFeature
 {
 	public override string Name => "hud";
-	public override string Description => "HUD (compass, ammo left in chamber / magazine, fire mode, coordinates).";
+	public override string Description => "HUD（指南针、膛室/弹匣剩余弹药、射击模式、坐标）。";
 
 	[ConfigurationProperty]
 	public Color Color { get; set; } = Color.white;

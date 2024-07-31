@@ -10,8 +10,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Train : TriggerFeature
 {
-	public override string Name => "train";
-	public override string Description => "Summon train on compatible maps like Reserve or Lighthouse.";
+	public override string Name => "召唤火车";
+	public override string Description => "在兼容地图（如保护区或灯塔）上召唤火车。";
 
 	public override KeyCode Key { get; set; } = KeyCode.None;
 

@@ -17,8 +17,8 @@ namespace EFT.Trainer.Features;
 // StayInTarkov (SIT) is exposing a LootItems type in the global namespace, so make sure to use a qualified name for this one
 internal class LootItems : PointOfInterests
 {
-	public override string Name => "loot";
-	public override string Description => "List all lootable items and track any item by name or rarity or in-game wishlist in raid (even in containers and corpses). Use track and tracklist commands to control display.";
+	public override string Name => "掠夺";
+	public override string Description => "列出所有可掠夺物品，并按名称、稀有度或突袭中的游戏内愿望清单跟踪任何物品（即使在容器和尸体中）。使用 track 和 tracklist 命令来控制显示。";
 
 	[ConfigurationProperty]
 	public Color Color { get; set; } = Color.cyan;

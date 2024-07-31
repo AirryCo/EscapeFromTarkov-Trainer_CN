@@ -13,8 +13,8 @@ namespace EFT.Trainer.Features;
 
 internal class GameState : CachableFeature<GameStateSnapshot>
 {
-	public override string Name => "gamestate";
-	public override string Description => "Refresh all game information for other features.";
+	public override string Name => "游戏状态";
+	public override string Description => "刷新所有游戏信息以获取其他功能。";
 
 	public static GameStateSnapshot? Current { get; private set; }
 

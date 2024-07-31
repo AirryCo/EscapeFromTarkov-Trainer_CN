@@ -10,8 +10,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Radar : BaseMapToggleFeature
 {
-	public override string Name => "radar";
-	public override string Description => "2D radar.";
+	public override string Name => "雷达";
+	public override string Description => "2D 雷达。";
 
 	public override bool Enabled { get; set; } = false;
 

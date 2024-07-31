@@ -8,8 +8,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class NoCollision : ToggleFeature
 {
-	public override string Name => "nocoll";
-	public override string Description => "No physical collisions, making you immune to bullets, grenades and barbed wires.";
+	public override string Name => "无碰撞";
+	public override string Description => "没有物理碰撞，让你免受子弹、手榴弹和铁丝网的伤害。";
 
 	public override bool Enabled { get; set; } = false;
 

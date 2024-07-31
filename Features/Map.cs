@@ -11,8 +11,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Map : BaseMapToggleFeature
 {
-	public override string Name => "map";
-	public override string Description => "Full screen map with radar esp.";
+	public override string Name => "地图";
+	public override string Description => "带有雷达的全屏地图。";
 
 	[ConfigurationProperty(Skip = true)] // we do not want to offer save/load support for this
 	public override bool Enabled { get; set; } = false;

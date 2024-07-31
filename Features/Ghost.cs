@@ -9,8 +9,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Ghost : ToggleFeature
 {
-	public override string Name => "ghost";
-	public override string Description => "Stop bots from seeing you.";
+	public override string Name => "幽灵";
+	public override string Description => "阻止机器人看到您。";
 
 	public override bool Enabled { get; set; } = false;
 

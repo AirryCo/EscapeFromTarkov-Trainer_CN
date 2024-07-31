@@ -8,8 +8,8 @@ namespace EFT.Trainer.Features;
 [UsedImplicitly]
 internal class Examine : ToggleFeature
 {
-	public override string Name => "examine";
-	public override string Description => "All items already examined. Instant search.";
+	public override string Name => "检视";
+	public override string Description => "所有项目已检查。即时搜索。";
 
 	public override bool Enabled { get; set; } = false;
 
