@@ -16,7 +16,7 @@
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
 
     <Authors>Sebastien Lebreton</Authors>
-    <RepositoryUrl>https://github.com/sailro/EscapeFromTarkov-Trainer</RepositoryUrl>
+    <RepositoryUrl>https://github.com/AirryCo/EscapeFromTarkov-Trainer_CN</RepositoryUrl>
     <Version>2.9.0.0</Version>
     <Copyright>Sebastien Lebreton</Copyright>
   </PropertyGroup>
