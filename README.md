@@ -1,3 +1,18 @@
+# 逃离塔科夫修改器
+
+## 如何使用
+
+1. 从[Release](https://github.com/AirryCo/EscapeFromTarkov-Trainer_CN/releases)下载`Installer.zip`
+
+2. 解压到游戏根目录
+
+3. 双击`Installer.exe`
+
+4. 如果出现提示，按下`y`即可
+
+5. enjoy!
+
+----------------------------------------------
 
 # EscapeFromTarkov-Trainer
 
